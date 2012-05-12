@@ -1,0 +1,14 @@
+The script "fsBasics.py" can be used to check the basic functions of a file system.
+It was developed to detect regressions during the development of a metadata server.
+The script does not handle any data related functions. 
+It checks the following features:
+	- Creation of files / directories
+	- Deletion files / directories
+	- Moving of files
+	- Attribute changes
+
+The script can be measure the performance of the aforementioned operations,
+this is especially useful if one wants to analyse the behaviour of file systems
+with directories that include a large number of files.
+
+See 'fsBasics.py -h' for the possible options.
